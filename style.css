@@ -1,0 +1,100 @@
+body {
+	background-color: #f4f4f4;
+	color: black;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+h1 {
+	color: blue;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	letter-spacing: 4px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	transition: color 1s ease;
+}
+
+a :hover {
+	color: blue;
+}
+.btn-red :hover {
+	background-color: blue;
+}
+
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px
+	}
+}
+
+.card-shadowed {
+	background: white;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba (0,0,0,.4);
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.btn-red {
+	background-color: red;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-red {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-red li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-red i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
